@@ -1,5 +1,5 @@
-## 친구의 돈
-
+## simpleBof
+ 
 ### 시나리오
 누군가가 말했습니다.  
 "buffer overflow가 뭔가요?"
