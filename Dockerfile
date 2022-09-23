@@ -4,8 +4,8 @@ RUN apt-get update && apt-get install socat -y
 
 WORKDIR /app
 
-COPY bof .
-COPY flag.txt .
+COPY bof ./bof
+COPY flag.txt ./flag.txt
 
 RUN chmod +x ./bof
 
