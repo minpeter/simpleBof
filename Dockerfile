@@ -4,10 +4,10 @@ RUN apt-get update && apt-get install socat -y
 
 WORKDIR /app
 
-COPY flag.txt .
 COPY bof .
+COPY flag.txt .
 
-RUN chmod +x bof
+RUN chmod +x ./bof
 
 ENV PORT 1337
 
