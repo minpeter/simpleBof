@@ -6,7 +6,7 @@ void func(int key){
 	printf("overflow me : ");
 	gets(target);
 	if(key == 0xbbafdadc){
-		system("cat ./flag.txt");
+		system("cat ./flag");
 	}
 	else{
 		printf("em... YoU LoSeRRRR! oK?!?! You LOsE! HAhahahahA\n");
