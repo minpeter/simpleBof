@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install socat build-essential gcc-multilib -y
 WORKDIR /app
 
 COPY bof.c ./bof.c
-COPY flag.txt ./flag.txt
+COPY flag ./flag
 
 RUN gcc -fno-stack-protector -fcf-protection=none -m32 -o bof bof.c
 RUN chmod +x ./bof
